@@ -17,11 +17,9 @@ body {
     border: 10px solid #4DF0FF;
     border-top: 0; 
     
+    
 }
 
-
-
-/* Container or module styles probably come next. */
 
 header {
     background-color: #4DF0FF;
@@ -109,7 +107,7 @@ img {
     float:right; 
     border: 3px solid #000000;
     margin: 10px;
-    width: 40%
+    width: 35%
 
 }
 
