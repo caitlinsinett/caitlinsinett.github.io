@@ -13,7 +13,7 @@ body {
     font-family: Caslon, alexandria, serif;
     font-size: 16px;
     line-height: 24px;
-	background-color: #C7CACF;
+	background-color: #F7F1FF;
     border: 10px solid #4DF0FF;
     border-top: 0; 
     
@@ -60,18 +60,17 @@ header a {
 }
 
 header a:hover {
-    color: #C7CACF;
+    color: #F7F1FF;
 }
 
 
 
 h2 {
-  padding: 16px 0 16px 16px;
+  padding: 20px 0 16px 16px;
   color: #000000;  
 font-family: myriad, arial, sans-serif;
     font-size: 36px;
     
-
 }
 
 h3 {
@@ -141,7 +140,7 @@ article h3 {
     
 }
 .center {
-     padding: 0 0 0 230px;
+     padding: 0 0 0 180px;
 }
 section {
    
