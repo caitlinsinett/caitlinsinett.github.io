@@ -10,7 +10,7 @@
 
 
 body {
-    font-family: arial, helvetica, sans-serif;
+    font-family: Caslon, alexandria, serif;
     font-size: 16px;
     line-height: 24px;
 	background-color: #C7CACF;
@@ -25,13 +25,14 @@ header {
     background-color: #4DF0FF;
     color: #ffffff;
     height: 60px;
+   
     
    
 }
 
 header h1 {
  float: left;
-    font-family: helvetica, arial, sans-serif;
+   font-family: myriad, arial, sans-serif;
     font-size: 24px;
     font-weight: 800;
     padding: 18px;
@@ -42,6 +43,8 @@ header h1 {
 nav {
   float: left;
     padding: 18px;
+    font-weight: 600;
+    
 }
 
 nav a {
@@ -61,37 +64,48 @@ header a:hover {
 }
 
 
+
 h2 {
-  padding: 16px 0 8px 16px;
+  padding: 16px 0 16px 16px;
   color: #000000;  
+font-family: myriad, arial, sans-serif;
+    font-size: 36px;
+    
+
 }
 
 h3 {
     font-size: 20px;
     padding: 5px 0 0 24px;
     text-decoration: underline;
+    font-family: Caslon, alexandria, serif;
 }
 
 h6 { 
     float:right;
     padding: 5px 180px 0 0;
     font-size: 16px;
+    font-family: Caslon, alexandria, serif;
     
 } 
 
 h4 { 
-    padding: 5px 0 0 32px;
+    padding: 2px 0 0 32px;
     font-size: 16px;
+    font-family: Caslon, alexandria, serif;
 }
 
 h5 { 
     font-size: 14px;
-    padding:0 0 0 32px;
+    padding:2px 0 0 32px;
     line-height: 16px;
+    font-family: Caslon, alexandria, serif;
+    font-style:italic;
 }
 
 ul {
     padding: 3px 0 3px 40px;  
+    font-family: myriad, arial, sans-serif;
     font-size: 14px;
     line-height: 24px;
 }
@@ -99,6 +113,7 @@ ul {
 p {
     padding: 0 16px 0 16px;
     margin-bottom: 1rem;
+    line-height: 24px;
 }
 
 
@@ -125,6 +140,9 @@ article h3 {
     
     
 }
+.center {
+     padding: 0 0 0 230px;
+}
 section {
    
 }
@@ -135,6 +153,10 @@ img {
     margin: 10px;
     width: 35%;
 
+}
+
+.left img {
+    float: left;
 }
 
 aside {
@@ -153,7 +175,7 @@ footer {
 footer a {
     clear: both;
     text-align: center;
-    padding: 20px 80px 0 80px;
+    padding: 0px 60px 0 80px;
 
         
 }
