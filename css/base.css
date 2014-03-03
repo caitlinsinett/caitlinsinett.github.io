@@ -111,7 +111,7 @@ ul {
 
 p {
     padding: 0 16px 0 16px;
-    margin-bottom: 1rem;
+    margin-bottom: 10px;
     line-height: 24px;
 }
 
@@ -152,6 +152,21 @@ img {
     margin: 10px;
     width: 35%;
 
+}
+
+figure img{
+    float: left;
+    clear:both;
+    width: 35%;
+    margin-top: 0;
+    margin-left: 12px;
+}
+
+figcaption {
+    clear: both;
+    margin-left: 12px;
+    width: 45%;
+    margin-bottom: 16px;
 }
 
 .left img {
