@@ -6,7 +6,9 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    border-bottom-left-radius: 20px;
 }
+
 
 
 body {
@@ -15,7 +17,7 @@ body {
     line-height: 24px;
 	background-color: #F7F1FF;
     border: 10px solid #4DF0FF;
-    border-top: 0; 
+    border-top: 0;
 }
 
 
@@ -60,10 +62,10 @@ header a:hover {
 
 word {
     color: #F7F1FF;
-    margin-right: 16px;
     text-decoration: none;
     padding: 0 0 0 10px;
     font-family: Caslon, alexandria, serif;
+    margin: 18px 18px 18px 24px;
 }
 
 
@@ -225,8 +227,7 @@ footer a {
 
 .left img {
     float: left;
-    margin-right: 30px;
-    margin-bottom: 50px;
+    margin:20px 30px 50px 20px;
 }
 
 .clear {
