@@ -1,4 +1,4 @@
-/* This is the syntax for a CSS comment. */
+
 
 /* Typically you put all of your general element styles at the top. */
 
@@ -48,10 +48,12 @@ nav {
 }
 
 nav a {
+    font-family: Caslon, alexandria, serif;
 
 }
 
 header a { 
+    
     color: #000000;
     margin-right: 16px;
     text-decoration: none;
@@ -59,58 +61,80 @@ header a {
 
 }
 
+word {
+    color: #F7F1FF;
+    margin-right: 16px;
+    text-decoration: none;
+    padding: 0 0 0 10px;
+    font-family: Caslon, alexandria, serif;
+    
+}
+
 header a:hover {
     color: #F7F1FF;
 }
 
 
-
 h2 {
-  padding: 20px 0 16px 16px;
-  color: #000000;  
-font-family: myriad, arial, sans-serif;
-    font-size: 36px;
-    
+    color: #000000;
+    font-size:36px;
+    line-height: 44px;
+    padding: 16px 0 30px 24px; 
+    font-family: myriad, arial, sans-serif;
 }
+
+h7 {
+    font-size: 30px;
+    font-family: Caslon, alexandria, serif;
+    font-weight: bold;
+    padding: 0 0 30px 24px;
+}
+
 
 h3 {
     font-size: 20px;
-    padding: 5px 0 0 24px;
+    padding: 20px 0 0 24px;
     text-decoration: underline;
     font-family: Caslon, alexandria, serif;
 }
 
 h6 { 
     float:right;
-    padding: 5px 180px 0 0;
+    padding: 2px 180px 0 0;
     font-size: 16px;
     font-family: Caslon, alexandria, serif;
     
 } 
 
 h4 { 
-    padding: 2px 0 0 32px;
+    padding: 2px 0 0 24px;
     font-size: 16px;
     font-family: Caslon, alexandria, serif;
 }
 
 h5 { 
     font-size: 14px;
-    padding:2px 0 0 32px;
+    padding:2px 0 0 24px;
     line-height: 16px;
     font-family: Caslon, alexandria, serif;
     font-style:italic;
 }
 
+
 ul {
     padding: 3px 0 3px 40px;  
-    font-family: myriad, arial, sans-serif;
+    font-family: Caslon, alexandria, serif;
     font-size: 14px;
     line-height: 24px;
 }
 
+section ul {
+    padding: 3px 0 50px 40px;
+    
+}
+
 p {
-    padding: 0 16px 0 16px;
+    padding: 0 0 0 24px;
     margin-bottom: 10px;
     line-height: 24px;
 }
@@ -124,10 +148,11 @@ padding: 0 10px 0 10px;
 }
 
 article h2 {
-    color: #000000;
+   color: #000000;
     font-size:36px;
     line-height: 44px;
-    padding: 16px 0 8px 16px;
+    padding: 16px 0 8px 16px; 
+    font-family: myriad, arial, sans-serif;
     
 }
 
@@ -136,20 +161,24 @@ article h3 {
     font-size: 24px;
     line-height: 44px;
     padding: 16px 0 8px 16px;
-    
-    
 }
-.center {
-     padding: 0 0 0 180px;
+
+article p {
+    padding: 0 0 0 16px;
+    margin-bottom: 10px;
+    line-height: 24px;
 }
-section {
+
+
+section p {
+    padding: 0 0 50px 24px
    
 }
 
-img {
+article img {
     float:right; 
     border: 3px solid #000000;
-    margin: 10px;
+    margin: 5px 10px 50px 40px;
     width: 35%;
 
 }
@@ -159,19 +188,18 @@ figure img{
     clear:both;
     width: 35%;
     margin-top: 0;
-    margin-left: 12px;
+    margin-left: 24px;
+    margin-bottom: 10px;
+    
 }
 
 figcaption {
     clear: both;
-    margin-left: 12px;
+    margin-left: 24px;
     width: 45%;
-    margin-bottom: 16px;
+    margin-bottom: 50px;
 }
 
-.left img {
-    float: left;
-}
 
 aside {
     margin-top: 32px;
@@ -181,18 +209,35 @@ aside {
 }
 
 footer {
-    padding: 10px 10px 0 10px;
+    padding: 10px;
     clear:both;
+    background-color: #DAE5FF;
     
 }
 
 footer a {
-    clear: both;
-    text-align: center;
-    padding: 0px 60px 0 80px;
+    font-family: Caslon, alexandria, serif;
+    font-weight: 800;
+    padding: 0px 80px 0 80px;
+    border: 2px solid #000000; 
+    border-top: none;
+    border-bottom: none;
+    border-left: none
+    
+}
 
-        
+.left img {
+    float: left;
+    margin-right: 30px;
+    margin-bottom: 50px;
+}
+
+.clear {
+    clear:both;
 }
 
 /* Class and ID styles come last because they are the most specific. */
 
+@media screen (max-width: 600px) {
+    
+}
