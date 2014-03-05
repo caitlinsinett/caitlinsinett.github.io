@@ -14,17 +14,19 @@ body {
     font-size: 16px;
     line-height: 24px;
     background-color: #F7F1FF;
-    border: 60px solid black; 
+    border: 60px solid #000000; 
     border-bottom: 0;
     border-top: 0;
-    
+    width: 100%;
+    margin-bottom: 0;
+
 }
 
 #wrapper {
     width: 960;
     margin: 0 auto;
     border: 10px solid #4DF0FF;
-    border-top: 0px
+    border-top: 0px;
 }
 
 
@@ -42,19 +44,19 @@ header h1 {
     font-weight: 800;
     padding: 18px;
     color: #000000;
+
 }
 
 nav {
   float: left; 
     padding: 18px 0 18px 0;
     font-weight: 600;
-    width: 70%;
+
 }
 
 nav a {
     font-family: Caslon, alexandria, serif; 
-    margin: 12px;
-    
+    margin: 12px;  
 
 }
 
@@ -148,7 +150,7 @@ p {
 article {
  clear: both;   
 padding: 0 10px 0 10px;
- width: 85%
+ 
 }
 
 article h2 {
