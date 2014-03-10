@@ -49,7 +49,7 @@ header h1 {
 
 nav {
   float: left; 
-    padding: 18px 0 18px 0;
+    padding: 20px 0 18px 0;
     font-weight: 600;
 
 }
@@ -227,7 +227,7 @@ footer {
 footer a {
     font-family: Caslon, alexandria, serif;
     font-weight: 800;
-    padding: 0px 75px 0 75px;
+    padding: 0px 55px 0 55px;
     border: 2px solid #000000; 
     border-top: none;
     border-bottom: none;
