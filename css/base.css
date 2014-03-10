@@ -170,7 +170,7 @@ article h3 {
 }
 
 article p {
-    padding: 0 24px 0 16px;
+    padding: 0 24px 0 18px;
     margin-bottom: 10px;
     line-height: 24px;
 }
@@ -221,20 +221,18 @@ footer {
     clear:both;
     background-color: #DAE5FF;
     align-content: center;
-    width: 100%;
     
 }
 
 footer a {
     font-family: Caslon, alexandria, serif;
     font-weight: 800;
-    padding: 0px 75px 0 75px;
+    padding: 0px 50px 0 50px;
     border: 2px solid #000000; 
     border-top: none;
     border-bottom: none;
     border-left: none;
- 
-    
+    clear: both;
 }
 
 
