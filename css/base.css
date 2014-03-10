@@ -17,8 +17,8 @@ body {
     border: 60px solid #000000; 
     border-bottom: 0;
     border-top: 0;
-    width: 100%;
     margin-bottom: 0;
+    
 
 }
 
@@ -227,7 +227,7 @@ footer {
 footer a {
     font-family: Caslon, alexandria, serif;
     font-weight: 800;
-    padding: 0px 50px 0 50px;
+    padding: 0px 75px 0 75px;
     border: 2px solid #000000; 
     border-top: none;
     border-bottom: none;
