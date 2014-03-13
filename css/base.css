@@ -10,11 +10,9 @@
 
 
 body {
-   
     font-size: 16px;
     line-height: 24px;
-    background-color: #F7F1FF;
-    border: 60px solid #000000; 
+    background-color: #F7F1FF; 
     border-bottom: 0;
     border-top: 0;
     margin-bottom: 0;
@@ -88,6 +86,7 @@ h2 {
     line-height: 44px;
     padding: 16px 0 30px 24px; 
     font-family: 'Spinnaker', sans-serif;
+    font-weight: 800;
 }
 
 h3 {
@@ -140,6 +139,7 @@ p {
 article {
     float: left; 
     padding: 0 10px 0 10px;
+    font-family: 'Duru Sans', sans-serif;
 }
 
 article h2 {
@@ -150,6 +150,7 @@ article h2 {
     font-family: 'Duru Sans', sans-serif;
     
 }
+
 
 article h3 {
     color: #000000;
@@ -171,7 +172,7 @@ article p {
 article img {
     float: right;  
     border: 3px solid #000000;
-    margin: 80px 10px 40px;
+    margin: 65px 10px 40px;
     width: 35%;
 
 }
@@ -234,7 +235,7 @@ footer {
 }
 
 footer a {
-    font-family: 'Duru Sans', sans-serif;
+    font-family: 'Spinnaker', sans-serif;
     font-weight: 800;
     padding: 0px 40px 0 40px;
     border: 2px solid #000000; 
@@ -251,7 +252,14 @@ footer a {
 /*About page */
 .left img {
     float: left;
-    margin:20px 30px 50px 20px;
+    margin:20px 30px 10px 20px;
+    width: 35%
+}
+
+.left figcaption {
+    float: left;
+    margin: 0px 30px 50px 20px;
+    width: 35%;
 }
 
 /*Contact page */
