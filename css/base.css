@@ -13,19 +13,17 @@ body {
     font-size: 16px;
     line-height: 24px;
     background-color: #F7F1FF; 
+    border: 10px solid #4DF0FF;
     border-bottom: 0;
     border-top: 0;
     margin-bottom: 0;
-    
-
 }
 
 #wrapper {
     width: 960;
     margin: 0 auto;
-    border: 10px solid #4DF0FF;
-    border-top: 0px;
 }
+
 
 /*Everything in header goes first  */
 
@@ -45,6 +43,8 @@ header h1 {
     color: #000000;
 
 }
+
+
 
 nav {
   float: left; 
@@ -72,8 +72,6 @@ header a {
     
     
 }
-/* I made this word strong because it is an important word in the header and is the name of the page the user is currently on.*/
-
 
 header a:hover {
     color: #F7F1FF;
@@ -84,14 +82,14 @@ h2 {
     color: #000000;
     font-size:36px;
     line-height: 44px;
-    padding: 16px 0 30px 24px; 
+    padding: 24px 0 24px 24px; 
     font-family: 'Duru Sans', sans-serif;
     font-weight: 800;
 }
 
 h3 {
     font-size: 20px;
-    padding: 20px 0 0 24px;
+    padding: 18px 0 0 24px;
     text-decoration: underline;
     font-family: 'Duru Sans', sans-serif;
 
@@ -144,7 +142,7 @@ article h2 {
    color: #000000;
     font-size:36px;
     line-height: 44px;
-    padding: 16px 0 8px 16px; 
+    padding: 24px 0 16px 24px; 
     font-family: 'Duru Sans', sans-serif;
     
 }
@@ -160,7 +158,7 @@ article h3 {
 
  
 article p {
-    padding: 0 24px 15px 18px;
+    padding: 0px 0 24px 24px; 
     margin-bottom: 10px;
     line-height: 24px;
     
@@ -219,7 +217,7 @@ section p {
     font-size: 30px;
     font-family: 'Duru Sans', sans-serif;
     font-weight: bold;
-    padding: 0 0 0 24px;
+    padding: 24px 0 0 24px;
     clear:both;
 }
 
