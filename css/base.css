@@ -49,7 +49,7 @@ header h1 {
 nav {
   float: left; 
     padding: 20px 0 18px 10px;
-    font-weight: 600;
+    font-weight: 400;
     
 
 }
@@ -80,9 +80,9 @@ header a:hover {
 /*Headings go next in order*/
 h2 {
     color: #000000;
-    font-size:36px;
+    font-size: 36px;
     line-height: 44px;
-    padding: 24px 0 24px 24px; 
+    padding: 26px 0 24px 26px; 
     font-family: 'Duru Sans', sans-serif;
     font-weight: 800;
 }
@@ -170,7 +170,7 @@ article p {
 article img {
     float: right;  
     border: 3px solid #000000;
-    margin: 70px 10px 20px 40px;
+    margin: 70px 24px 20px 40px;
     width: 35%;
 
 }
