@@ -225,6 +225,21 @@ section p {
     clear: both;
 }
 
+/* Multimedia page */
+
+iframe {
+    padding: 0 0 0 20px;
+    width: 55%;
+}
+
+section figcaption{
+    width: 55%;
+    clear: both;
+}
+
+section h3 {
+    padding: 0 0 20px 24px; 
+}
 
 
 /* Images */
@@ -247,6 +262,7 @@ figcaption {
     margin-bottom: 50px;
     font-family: 'Spinnaker', sans-serif;
 }
+
 
 
 
