@@ -86,7 +86,7 @@ h3 {
 
 a h3 {
     color:  #0000FF;
-    padding: 18px 24px 0 18px;   
+    padding: 18px 24px 0 24px;   
 }    
 
 
@@ -113,7 +113,7 @@ h6 {
 } 
 
 p {
-    padding: 0 24px 0 18px;
+    padding: 0 24px 0 24px;
     margin-bottom: 10px;
     line-height: 24px;
     font-family: 'Duru Sans', sans-serif;
@@ -163,7 +163,7 @@ article img {
 article figcaption  {
     float: right;  
     width: 35%;
-    margin: 0 24px 0 40px;
+    margin: 0 24px 40px 40px;
     font-family: 'Spinnaker', sans-serif;
 }
 
@@ -215,7 +215,7 @@ section p {
     font-size: 30px;
     font-family: 'Duru Sans', sans-serif;
     font-weight: bold;
-    padding: 24px 24px 0 18px;
+    padding: 24px 24px 0 24px;
     clear:both;
 }
 
@@ -228,7 +228,7 @@ section p {
 /* Multimedia page */
 
 iframe {
-    padding: 0 0 0 20px;
+    margin: 0 0 0 20px;
     width: 55%;
 }
 
@@ -239,6 +239,11 @@ section figcaption{
 
 section h3 {
     padding: 0 0 20px 24px; 
+}
+
+.video {
+    width: 55%;
+    margin: 0 0 20px 20px;
 }
 
 /* Images */
@@ -254,6 +259,7 @@ figure img{
 }
 
 
+
 figcaption {
     clear: both;
     margin-left: 24px;
@@ -261,9 +267,6 @@ figcaption {
     margin-bottom: 50px;
     font-family: 'Spinnaker', sans-serif;
 }
-
-
-
 
 footer {
     padding: 10px;
@@ -306,12 +309,14 @@ footer a {
 
     
    article img {
-        width: 70%;
+        width: 35%;
         margin-right: 50px;
         margin-bottom: 20px;
     }
     
     
+    
+
     figure img { 
         width: 80%
     }
