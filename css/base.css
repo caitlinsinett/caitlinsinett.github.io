@@ -189,7 +189,15 @@ article figcaption  {
     width: 35%;
     font-family: 'Spinnaker', sans-serif;
 }
+
+/* Contact page */
+
+.contact img {
+    clear: both; 
+    width: 20%;
+    margin: 10px 10px 16px 10px;
     
+}
 
 /* Lists, affects resume page */
 
