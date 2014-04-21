@@ -315,6 +315,7 @@ footer a {
     nav {
         background-color: #4DF0FF;
         width: 100%;
+        margin-bottom: 20px;
 
     }
     
@@ -322,18 +323,37 @@ footer a {
         clear:both;
         padding: 0 10px 10px 0;
     }
+
     
-   article img {
-        width: 35%;
-        margin-right: 50px;
-        margin-bottom: 20px;
+    article h2 {
+        clear: both; 
     }
     
+   article img {
+        width: 80%;
+        margin-right: 50px;
+        margin-bottom: 20px;
+        clear: both;
+    }
     
+    article figcaption {
+        width: 80%;
+    }
     
+    .left figcaption {
+        width: 80%;
+    }
+    
+    iframe {
+        width: 80%;
+    }
 
     figure img { 
-        width: 80%
+        width: 80%;
+    }
+    
+    .video {
+        width: 80%;
     }
     
     figcaption {
