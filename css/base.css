@@ -29,7 +29,6 @@ header {
     background-color: #4DF0FF;
     color: #ffffff;
     height: 60px;  
-
 }
 
 header h1 {
@@ -359,6 +358,11 @@ footer a {
     figcaption {
         width: 80%;
     }
+    
+    audio {
+        width: 80%;
+    }
+    
 
     .left  img {
         margin-top: 20px;
