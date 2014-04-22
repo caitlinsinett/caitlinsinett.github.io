@@ -66,7 +66,9 @@ header a:hover {
     color: #F7F1FF;
 }
 
+
 /*Headings go next in order*/
+
 h2 {
     color: #000000;
     font-size: 36px;
@@ -118,6 +120,7 @@ p {
     font-family: 'Duru Sans', sans-serif;
 }
 
+
 /*Affects index, contact and about page*/
 
 article {
@@ -132,24 +135,19 @@ article h2 {
     line-height: 44px;
     padding: 24px 0 16px 16px; 
     font-family: 'Duru Sans', sans-serif;
-
 }
-
 
 article h3 {
     color: #000000;
     font-size: 24px;
     line-height: 44px;
-    padding: 16px 24px 8px 18px;
-    
+    padding: 16px 24px 8px 18px;    
 }
 
- 
 article p {
     padding: 0px 20px 24px 18px; 
     margin-bottom: 10px;
-    line-height: 24px;
-    
+    line-height: 24px;    
 }
 
 article img {
@@ -167,12 +165,12 @@ article figcaption  {
 }
 
 
-
 /* Index page */
+
 .end {
-   padding: 0 24px 85px 18px;
-    
+   padding: 0 24px 85px 18px;    
 }
+
 
 /* About page */
 
@@ -189,14 +187,15 @@ article figcaption  {
     font-family: 'Spinnaker', sans-serif;
 }
 
+
 /* Contact page */
 
 .contact img {
     clear: both; 
     width: 20%;
     margin: 5px 10px 10px 10px;
-    
 }
+
 
 /* Lists, affects resume page */
 
@@ -207,10 +206,10 @@ ul {
     line-height: 24px;
 }
 
-
 .bottom {
     padding: 3px 0 80px 40px;
 }
+
 
 /* Portfolio */
 
@@ -225,6 +224,7 @@ section p {
     padding: 24px 24px 0 24px;
     clear:both;
 }
+
 
 /* Resume and Portfolio page */
 
@@ -263,6 +263,7 @@ audio {
 
 
 /* Images */
+
 figure img{
     float: left;
     clear:both;
@@ -274,8 +275,6 @@ figure img{
     
 }
 
-
-
 figcaption {
     clear: both;
     margin-left: 24px;
@@ -284,14 +283,14 @@ figcaption {
     font-family: 'Spinnaker', sans-serif;
 }
 
+
 /* Footer */
 
 footer {
     padding: 10px;
     clear:both;
     background-color: #DAE5FF;
-    align-content: center;
-    
+    align-content: center;   
 }
 
 footer a {
@@ -313,6 +312,7 @@ footer a {
     body {
         padding: 5%;
     }
+   
     
 /* Header */
     
@@ -326,12 +326,14 @@ footer a {
         padding: 2px;     
     }
 
+    
 /* Heading */
     
     h6 {
         clear:both;
         padding: 0 10px 10px 0;
     }
+    
     
 /*Index, contact and about page */
     
