@@ -239,6 +239,11 @@ iframe {
     width: 55%;
 }
 
+video {
+    margin: 0 0 0 20px;
+ 
+}
+    
 section figcaption{
     width: 55%;
     clear: both;
@@ -256,7 +261,7 @@ section h3 {
 
 audio {
     clear: both;
-    padding: 40px 24px 50px 20px;
+    margin: 0 0 0 20px;
     width: 55%;
 }
 
